@@ -15,10 +15,6 @@ public class PropertyDTO {
 
     private Double price;
 
-    private String ownerName;
-
-    private String ownerEmail;
-
     private String address;
 
     /* Lombok is doing this for us(@Getter and @Setter)

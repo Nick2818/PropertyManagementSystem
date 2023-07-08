@@ -23,10 +23,5 @@ public class PropertyEntity {
 
     private Double price;
 
-    private String ownerName;
-
-    @Column(name = "EMAIL", nullable = false)
-    private String ownerEmail;
-
     private String address;
 }
