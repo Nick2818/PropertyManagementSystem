@@ -1,8 +1,9 @@
-package com.mn.propertyManagement.CONVERTER;
+package com.mn.propertymanagement.converter;
 
-import com.mn.propertyManagement.ENTITY.UserEntity;
-import com.mn.propertyManagement.MODAL.UserDTO;
+import com.mn.propertymanagement.entity.UserEntity;
+import com.mn.propertymanagement.modal.UserDTO;
 import org.springframework.stereotype.Component;
+
 
 @Component
 public class UserConverter {

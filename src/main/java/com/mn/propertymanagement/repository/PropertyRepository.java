@@ -1,6 +1,6 @@
-package com.mn.propertyManagement.REPOSITORY;
+package com.mn.propertymanagement.repository;
 
-import com.mn.propertyManagement.ENTITY.PropertyEntity;
+import com.mn.propertymanagement.entity.PropertyEntity;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

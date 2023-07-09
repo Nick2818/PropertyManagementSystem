@@ -1,4 +1,4 @@
-package com.mn.propertyManagement.MODAL;
+package com.mn.propertymanagement.modal;
 
 import lombok.Getter;
 import lombok.Setter;

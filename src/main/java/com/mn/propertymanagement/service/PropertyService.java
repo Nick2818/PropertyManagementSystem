@@ -1,6 +1,6 @@
-package com.mn.propertyManagement.SERVICE;
+package com.mn.propertymanagement.service;
 
-import com.mn.propertyManagement.MODAL.PropertyDTO;
+import com.mn.propertymanagement.modal.PropertyDTO;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;

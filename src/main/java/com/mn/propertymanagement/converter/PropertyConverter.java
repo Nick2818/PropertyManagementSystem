@@ -1,7 +1,7 @@
-package com.mn.propertyManagement.CONVERTER;
+package com.mn.propertymanagement.converter;
 
-import com.mn.propertyManagement.ENTITY.PropertyEntity;
-import com.mn.propertyManagement.MODAL.PropertyDTO;
+import com.mn.propertymanagement.entity.PropertyEntity;
+import com.mn.propertymanagement.modal.PropertyDTO;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -1,10 +1,10 @@
-package com.mn.propertyManagement.SERVICE.IMPL;
+package com.mn.propertymanagement.service.impl;
 
-import com.mn.propertyManagement.REPOSITORY.PropertyRepository;
-import com.mn.propertyManagement.CONVERTER.PropertyConverter;
-import com.mn.propertyManagement.ENTITY.PropertyEntity;
-import com.mn.propertyManagement.MODAL.PropertyDTO;
-import com.mn.propertyManagement.SERVICE.PropertyService;
+import com.mn.propertymanagement.repository.PropertyRepository;
+import com.mn.propertymanagement.converter.PropertyConverter;
+import com.mn.propertymanagement.entity.PropertyEntity;
+import com.mn.propertymanagement.modal.PropertyDTO;
+import com.mn.propertymanagement.service.PropertyService;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

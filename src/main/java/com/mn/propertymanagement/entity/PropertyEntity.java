@@ -1,4 +1,4 @@
-package com.mn.propertyManagement.ENTITY;
+package com.mn.propertymanagement.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

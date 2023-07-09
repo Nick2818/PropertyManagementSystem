@@ -1,4 +1,4 @@
-package com.mn.propertyManagement;
+package com.mn.propertymanagement;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

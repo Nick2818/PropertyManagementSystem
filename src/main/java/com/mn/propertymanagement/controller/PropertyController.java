@@ -1,7 +1,7 @@
-package com.mn.propertyManagement.CONTROLLER;
+package com.mn.propertymanagement.controller;
 
-import com.mn.propertyManagement.MODAL.PropertyDTO;
-import com.mn.propertyManagement.SERVICE.PropertyService;
+import com.mn.propertymanagement.modal.PropertyDTO;
+import com.mn.propertymanagement.service.PropertyService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -49,7 +49,7 @@ public class PropertyController {
         return new ResponseEntity<>(propertyDTO, HttpStatus.CREATED);
     }
 
-    @DeleteMapping("{propertyId}")
+    @DeleteMapping("/{propertyId}")
     public ResponseEntity<Object> deleteProperty(@PathVariable Long propertyId){
         propertyService.deleteProperty(propertyId);
 
