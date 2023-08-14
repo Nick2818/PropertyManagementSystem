@@ -28,7 +28,16 @@ public class PropertyController {
 
     @GetMapping
     public ResponseEntity<List<PropertyDTO>> getAllProperties(){
+
         List<PropertyDTO> propertyList = propertyService.getAllProperties();
+
+        return new ResponseEntity<>(propertyList, HttpStatus.OK);
+    }
+
+    @GetMapping("/users/{userId}")
+    public ResponseEntity<List<PropertyDTO>> getAllPropertiesForUser(@PathVariable("userId") Long userId){
+
+        List<PropertyDTO> propertyList = propertyService.getAllPropertiesForUser(userId);
 
         return new ResponseEntity<>(propertyList, HttpStatus.OK);
     }
@@ -44,6 +53,7 @@ public class PropertyController {
 
     @PatchMapping("/{propertyId}")
     public ResponseEntity<PropertyDTO> patchPropertyPriceOrAndDescription(@RequestBody PropertyDTO propertyDTO, @PathVariable Long propertyId){
+
         propertyDTO = propertyService.patchPropertyPriceOrAndDescription(propertyDTO, propertyId);
 
         return new ResponseEntity<>(propertyDTO, HttpStatus.CREATED);
@@ -51,6 +61,7 @@ public class PropertyController {
 
     @DeleteMapping("/{propertyId}")
     public ResponseEntity<Object> deleteProperty(@PathVariable Long propertyId){
+
         propertyService.deleteProperty(propertyId);
 
         return new ResponseEntity<>(null, HttpStatus.NO_CONTENT);

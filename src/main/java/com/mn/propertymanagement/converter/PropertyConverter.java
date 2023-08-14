@@ -38,6 +38,8 @@ public class PropertyConverter {
 
         propertyDTO.setPropertyDescription(propertyEntity.getPropertyDescription());
 
+        propertyDTO.setUserId(propertyEntity.getUserEntity().getId());
+
         return propertyDTO;
     }
 }
